@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>eat healthy live healthy</title>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Khao Piyo Restaurant - Authentic Indian, Italian, Continental & Thai cuisine. Make reservations, explore our menus, and book catering services in [Location].">
+  <meta name="keywords"
+    content="Khao Piyo Restaurant, Indian food, Italian cuisine, Continental dishes, Thai food, restaurant reservation, catering services">
+  <title>Khao Piyo Restaurant | Multi-Cuisine Restaurant & Catering Services</title>
+
   <style>
     body {
       border: 1px solid #000;
@@ -82,46 +90,66 @@
 </head>
 
 <body>
-  <h1>KHAO PIYO RESTAURANT</h1>
-  <div class="mid">
-    <div>
-      <h2>Collect Formation for</h2>
-      <ul style="font-weight: bold;">
-        <li>Menus</li>
-        <br />
-        <li>Reservation</li>
-        <br />
-        <li>Catering</li>
-        <br />
-        <li>Tours</li>
-      </ul>
-    </div>
-    <img src="./image.png" alt="pepar">
-  </div>
-  <div class="bott">
-    <h3>Menus Available</h3>
-    <table>
-      <caption>Menu List</caption>
-      <tr>
-        <td>1</td>
-        <td><a href="one.html">Indian</a></td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td><a href="two.html">Italian</a></td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td><a href="three.html">Continental</a></td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td><a href="four.html">Thai</a></td>
-      </tr>
-    </table>
-  </div>
+  <header>
+    <h1>Welcome to Khao Piyo Restaurant</h1>
+  </header>
 
-  <h1>For further enquieries and reservation <a href="./" target="_blank">contact us</a></h1>
+  <main>
+    <section class="services">
+      <h2>Our Services</h2>
+      <nav aria-label="Primary services">
+        <ul>
+          <li><a href="#menus">Restaurant Menus</a></li>
+          <li><a href="#reservation">Table Reservations</a></li>
+          <li><a href="#catering">Professional Catering Services</a></li>
+          <li><a href="#tours">Restaurant Tours</a></li>
+        </ul>
+      </nav>
+      <img src="./image.png" alt="Khao Piyo Restaurant Interior View" width="500" height="300">
+    </section>
+
+    <section id="menus" class="menu-section">
+      <h2>Our International Cuisine Selection</h2>
+      <nav aria-label="Restaurant menus">
+        <table class="menu-table">
+          <caption>Explore Our Diverse Menu Options</caption>
+          <thead>
+            <tr>
+              <th scope="col">Cuisine Type</th>
+              <th scope="col">Menu Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Indian Cuisine</td>
+              <td><a href="indian-menu.html" title="View Indian Menu">Explore Indian Menu</a></td>
+            </tr>
+            <tr>
+              <td>Italian Cuisine</td>
+              <td><a href="italian-menu.html" title="View Italian Menu">Explore Italian Menu</a></td>
+            </tr>
+            <tr>
+              <td>Continental Cuisine</td>
+              <td><a href="continental-menu.html" title="View Continental Menu">Explore Continental Menu</a></td>
+            </tr>
+            <tr>
+              <td>Thai Cuisine</td>
+              <td><a href="thai-menu.html" title="View Thai Menu">Explore Thai Menu</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </nav>
+    </section>
+  </main>
+
+  <footer>
+    <section class="contact-section">
+      <h2>Make a Reservation</h2>
+      <p>Experience the finest multi-cuisine dining at Khao Piyo Restaurant. For reservations and inquiries, please <a
+          href="contact.html" target="_blank" rel="noopener">contact us</a> or call us at <a
+          href="tel:+1234567890">123-456-7890</a>.</p>
+    </section>
+  </footer>
 </body>
 
 </html>
